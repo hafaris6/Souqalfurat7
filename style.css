@@ -1,0 +1,97 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    direction: rtl;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to left, #eef2f3, #8e9eab);
+    color: #333;
+}
+header {
+    background: linear-gradient(to right, #2b5876, #4e4376);
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+header p {
+    font-size: 1.2em;
+}
+.service-number {
+    font-size: 16px;
+    margin-top: 15px;
+}
+.locations, .form-section {
+    padding: 30px 20px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+input, select, button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+button {
+    background-color: #00796b;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #004d40;
+}
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+.product-card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    overflow: hidden;
+    width: 300px;
+    padding: 16px;
+    transition: transform 0.2s ease;
+}
+.product-card:hover {
+    transform: scale(1.03);
+}
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.product-card h3 {
+    margin: 10px 0 5px;
+    font-size: 1.3em;
+}
+.product-card p {
+    font-size: 1em;
+    margin: 5px 0;
+}
+.product-card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: white;
+    background-color: #25d366;
+    padding: 10px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.product-card a:hover {
+    background-color: #128c7e;
+}
